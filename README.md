@@ -58,13 +58,13 @@ These results are reported in the published paper.
 
 ### Model Performance Comparison
 
-![Model Performance Comparison](figures/model_comparison.jpg)
+![Model Performance Comparison](Figures/model_comparison.jpg)
 
 Comparison of classification accuracy, sensitivity, and specificity across different pretrained CNN architectures and testing datasets.
 
 ### Grad-CAM Visualization
 
-![Grad-CAM Heatmaps](figures/gradcam.jpg)
+![Grad-CAM Heatmaps](Figures/gradcam.jpg)
 
 Grad-CAM visualizations highlighting image regions contributing to the CNN's predictions on supraspinatus ultrasound images.
 
