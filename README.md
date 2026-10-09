@@ -72,12 +72,18 @@ Grad-CAM visualizations highlighting image regions contributing to the CNN's pre
 
 ## Repository Contents
 
-This repository contains selected image preprocessing scripts and research documentation associated with the published study. The complete model implementation and training pipeline are not included in this repository.
+This repository serves as a research portfolio documenting my published work on deep learning-based detection of supraspinatus calcific tendinopathy.
 
-- `preprocessing/`: Image preprocessing utilities, including the `rename` and `take` scripts.
-- **Master's Thesis (PDF):** Detailed documentation of the research methodology and experimental results.
+It includes:
 
-For the complete methodology, model architectures, experimental setup, and results, please refer to the [published paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9724476/).
+- **Research Overview:** Summary of the study objectives, methodology, and experimental design.
+- **Published Results:** Quantitative model evaluation and comparisons across CNN architectures.
+- **Visualizations:** Model performance comparisons and Grad-CAM heatmaps.
+- **Master's Thesis (PDF):** Detailed research documentation.
+
+For the complete methodology and experimental results, please refer to the [published paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9724476/).
+
+*The original model implementation and training pipeline are not included in this repository.*
 
 ## Author
 
