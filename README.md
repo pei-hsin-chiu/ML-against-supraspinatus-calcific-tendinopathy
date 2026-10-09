@@ -42,8 +42,6 @@ As the first author, I led the technical development and experimental analysis o
 
 All model implementation, training, evaluation, and related programming work for this study was performed by me. Clinical image collection and diagnostic labeling were conducted by collaborators.
 
-**Note:** The full original training and model implementation code is not currently included in this repository. The available code consists of selected preprocessing utilities.
-
 ## Published Results
 
 The combined longitudinal-transverse DenseNet-121 model achieved:
@@ -56,9 +54,25 @@ The combined longitudinal-transverse DenseNet-121 model achieved:
 
 These results are reported in the published paper.
 
+## Model Evaluation and Interpretability
+
+### Model Performance Comparison
+
+![Model Performance Comparison](figures/model_comparison.jpg)
+
+Comparison of classification accuracy, sensitivity, and specificity across different pretrained CNN architectures and testing datasets.
+
+### Grad-CAM Visualization
+
+![Grad-CAM Heatmaps](figures/gradcam.jpg)
+
+Grad-CAM visualizations highlighting image regions contributing to the CNN's predictions on supraspinatus ultrasound images.
+
+*Figures reproduced from Chiu et al., Journal of Medical Ultrasound (2022), under CC BY-NC-SA 4.0.*
+
 ## Repository Contents
 
-This repository contains selected image preprocessing scripts and research documentation associated with the published study.
+This repository contains selected image preprocessing scripts and research documentation associated with the published study. The complete model implementation and training pipeline are not included in this repository.
 
 - `preprocessing/`: Image preprocessing utilities, including the `rename` and `take` scripts.
 - **Master's Thesis (PDF):** Detailed documentation of the research methodology and experimental results.
